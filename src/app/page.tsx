@@ -1,9 +1,13 @@
+import MainImage from "@/components/MainImage";
 import Navbar from "@/components/Navbar";
+import OurServices from "@/components/OurServices";
 
 function Home() {
   return (
-    <main className="h-lvh">
+    <main>
       <Navbar />
+      <MainImage />
+      <OurServices />
     </main>
   );
 }
