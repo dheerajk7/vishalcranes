@@ -2,7 +2,7 @@ import PrimaryButton from "./PrimaryButton";
 
 function Navbar() {
   return (
-    <nav className="bg-white">
+    <nav className="bg-white fixed top-0 w-full z-2">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex  items-center justify-between h-20">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

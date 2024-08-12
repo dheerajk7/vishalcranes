@@ -22,6 +22,10 @@ const config: Config = {
         "48": "24rem",
         "96": "48rem",
       },
+      zIndex: {
+        "1": "1",
+        "2": "2"
+      },
     },
     fontSize: {
       sm: '0.8rem',
