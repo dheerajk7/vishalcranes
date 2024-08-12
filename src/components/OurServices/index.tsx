@@ -13,7 +13,7 @@ function OurServices() {
       </p>
       <ul className="mt-6 flex flex-wrap max-w-[1100px] gap-2">
         {serviceData.map((service: ServiceItemType) => {
-            return <ServiceItem title={service.title} key={service.id} subtitle={service.subtitle} id={service.id} image_url={service.image_url} />
+            return <ServiceItem title={service.title} key={service.id} subtitle={service.subtitle} id={service.id} imageUrl={service.imageUrl} />
         } )}
       </ul>
     </section>

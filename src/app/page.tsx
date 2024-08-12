@@ -5,7 +5,7 @@ import WeHave from "@/components/WeHave";
 
 function Home() {
   return (
-    <main>
+    <main className="py-10">
       <Navbar />
       <MainImage />
       <OurServices />

@@ -1,38 +1,40 @@
 interface WeHaveTypes {
     id: string;
     title: string;
-    image_url: string;
+    imageUrl: string;
     subTitle: string;
 };
 
 const WeHaveData: WeHaveTypes[] = [{
     id: "truck_mounted_crane",
     title: "Truck mounted crane",
-    image_url: "/svg/p1.svg",
-    subTitle: "",
+    imageUrl: "/svg/p1.svg",
+    subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "tower_crane",
     title: "Tower crane",
-    image_url: "/svg/p2.svg",
-    subTitle: "",
+    imageUrl: "/svg/p2.svg",
+    subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "telescopic_crane",
     title: "Telescopic crane",
-    image_url: "/svg/p3.svg",
-    subTitle: "",
+    imageUrl: "/svg/p3.svg",
+    subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "loader_crane",
     title: "Loader crane",
-    image_url: "/svg/p1.svg",
-    subTitle: "",
+    imageUrl: "/svg/p1.svg",
+    subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "forklift",
     title: "Fork Lift",
-    image_url: "/svg/p2.svg",
-    subTitle: "",
+    imageUrl: "/svg/p2.svg",
+    subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "electronic_crane",
     title: "Electronic crane",
-    image_url: "/svg/p3.svg",
-    subTitle: "",
+    imageUrl: "/svg/p3.svg",
+    subTitle: "We provide wide varieties of crane on hire",
 }];
+
+export default WeHaveData;
