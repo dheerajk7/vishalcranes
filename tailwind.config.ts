@@ -56,6 +56,7 @@ const config: Config = {
       "gray-light": "#9095A1",
       "yellow": "#F3C63F",
       "gray-border": "#bdc1ca69",
+      "testmonial-background": "#D3C1FA",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
