@@ -4,7 +4,7 @@ function TestmonialItem({ title, description, id, imageUrl }: TestmonialsType) {
   return (
     <li
       key={id}
-      className="flex-[0_0_32%] text-left p-2 gap-1 border border-gray-border rounded"
+      className="md:flex-[0_0_32%] text-left p-2 gap-1 border border-gray-border rounded"
     >
       <div className="flex gap-1 mb-1">
         <img className="rounded-[50%] bg-testmonial-background" src={imageUrl} alt={title} />

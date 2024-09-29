@@ -7,15 +7,16 @@ type PrimaryButtonTypes = {
 
 function PrimaryButton({ children, id }: PrimaryButtonTypes) {
   return (
-    <button
+    <a
       type="button"
-      className="inline px-10 py-2 rounded bg-purple text-white text-base"
+      className="inline-block px-10 py-2 rounded bg-purple text-white text-base"
       id={id}
       aria-expanded="false"
       aria-haspopup="true"
+      href={id}
     >
       {children}
-    </button>
+    </a>
   );
 }
 
