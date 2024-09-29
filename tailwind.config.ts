@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "main-carousel-crane": "url(/svg/main_carousel_crane.svg)",
+        "main-carousel-crane": "url(../../public/svg/main_carousel_crane.svg)",
       },
       spacing: {
         "1": "0.5rem",
