@@ -1,3 +1,7 @@
+import P1 from '../svg/p1.svg';
+import P2 from '../svg/p2.svg';
+import P3 from '../svg/p3.svg';
+
 interface WeHaveTypes {
     id: string;
     title: string;
@@ -8,32 +12,32 @@ interface WeHaveTypes {
 const WeHaveData: WeHaveTypes[] = [{
     id: "truck_mounted_crane",
     title: "Truck mounted crane",
-    imageUrl: "/svg/p1.svg",
+    imageUrl: P1.src,
     subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "tower_crane",
     title: "Tower crane",
-    imageUrl: "/svg/p2.svg",
+    imageUrl: P2.src,
     subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "telescopic_crane",
     title: "Telescopic crane",
-    imageUrl: "/svg/p3.svg",
+    imageUrl: P3.src,
     subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "loader_crane",
     title: "Loader crane",
-    imageUrl: "/svg/p1.svg",
+    imageUrl: P1.src,
     subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "forklift",
     title: "Fork Lift",
-    imageUrl: "/svg/p2.svg",
+    imageUrl: P2.src,
     subTitle: "We provide wide varieties of crane on hire",
 }, {
     id: "electronic_crane",
     title: "Electronic crane",
-    imageUrl: "/svg/p3.svg",
+    imageUrl: P3.src,
     subTitle: "We provide wide varieties of crane on hire",
 }];
 

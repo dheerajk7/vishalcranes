@@ -5,6 +5,12 @@ import Navbar from "@/components/Navbar/Navbar";
 import OurServices from "@/components/OurServices";
 import Testmonials from "@/components/Testmonials";
 import WeHave from "@/components/WeHave";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Vishal Crane Services",
+  description: "Good service provider in Indore, MP",
+};
 
 function Home() {
   return (
