@@ -1,3 +1,5 @@
+import ContactUs from "@/components/ContactUs";
+import Footer from "@/components/Footer/Footer";
 import MainImage from "@/components/MainImage";
 import Navbar from "@/components/Navbar";
 import OurServices from "@/components/OurServices";
@@ -6,12 +8,14 @@ import WeHave from "@/components/WeHave";
 
 function Home() {
   return (
-    <main className="py-10">
+    <main className="pt-10">
       <Navbar />
       <MainImage />
       <OurServices />
       <WeHave />
       <Testmonials />
+      <ContactUs />
+      <Footer />
     </main>
   );
 }
