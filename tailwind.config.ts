@@ -20,6 +20,7 @@ const config: Config = {
         "8": "4rem",
         "10": "5rem",
         "48": "24rem",
+        "56": "32rem",
         "96": "48rem",
       },
       zIndex: {
