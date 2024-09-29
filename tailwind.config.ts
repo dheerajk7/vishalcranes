@@ -20,6 +20,7 @@ const config: Config = {
         "8": "4rem",
         "10": "5rem",
         "48": "24rem",
+        "56": "32rem",
         "96": "48rem",
       },
       zIndex: {
@@ -56,6 +57,7 @@ const config: Config = {
       "gray-light": "#9095A1",
       "yellow": "#F3C63F",
       "gray-border": "#bdc1ca69",
+      "testmonial-background": "#D3C1FA",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
